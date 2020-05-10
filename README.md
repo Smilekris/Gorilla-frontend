@@ -21,6 +21,12 @@ This project is our first original product that use for demo.Soon after we finis
 
 [Time range here](https://docs.google.com/spreadsheets/d/138XqSKBeJqZROCnJHo50nKuyGk41NryHNMJEsykGj2E/edit#gid=0)
 
+## How to use
+
+```sh
+node index.js # then open http://localhost:1122/ in chrome.
+```
+
 ## Donation
 
 If you find Gorilla useful, you can buy us a cup of coffee ~
