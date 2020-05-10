@@ -1,4 +1,4 @@
-const { writeFileSync } = require('fs')
+const { writeFileSync, readFileSync } = require('fs')
 const http = require('http')
 
 const content = `
@@ -15,7 +15,7 @@ const content = `
 writeFileSync('cjw_love_love.html', content)
 
 const server = http.createServer(function (request, response) {
-  let res = fs.readFileSync(`cjw_love_love.html`)
+  let res = readFileSync(`cjw_love_love.html`)
   // set reponse header
   response.writeHead(200, { 'Content-Type': 'text/html' })
   // set response
